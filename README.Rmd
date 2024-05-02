@@ -18,13 +18,6 @@ knitr::opts_chunk$set(
 
 
 <!-- badges: start -->
-
-----
-
-```{r flyer, echo = FALSE}
-knitr::include_graphics("IMG_3727.JPG")
-```
-
 <!-- badges: end -->
 
 ## Overview
@@ -41,3 +34,8 @@ Below are some important information regarding registration (source: [Prihantoro
 
 - Planned schedule [here](https://docs.google.com/document/d/1KQHpSOUkBb7DDr_VB1XMvGZ8zUulzJvwF0to2l-ZhFA/mobilebasic?)
 
+------------
+
+```{r flyer, echo = FALSE}
+knitr::include_graphics("IMG_3727.JPG")
+```

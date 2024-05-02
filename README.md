@@ -9,11 +9,6 @@ Rajeg](https://www.ling-phil.ox.ac.uk/people/gede-rajeg)
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
-
-------------------------------------------------------------------------
-
-<img src="IMG_3727.JPG" width="4000" />
-
 <!-- badges: end -->
 
 ## Overview
@@ -40,3 +35,7 @@ group-post](https://www.facebook.com/groups/471206953085498/permalink/2325617937
 
 - Planned schedule
   [here](https://docs.google.com/document/d/1KQHpSOUkBb7DDr_VB1XMvGZ8zUulzJvwF0to2l-ZhFA/mobilebasic?)
+
+------------------------------------------------------------------------
+
+<img src="IMG_3727.JPG" width="4000" />
