@@ -6,6 +6,7 @@ Rajeg](https://www.ling-phil.ox.ac.uk/people/gede-rajeg)
 
 - [Overview](#overview)
 - [Registration information](#registration-information)
+- [Flyer](#flyer)
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -13,12 +14,13 @@ Rajeg](https://www.ling-phil.ox.ac.uk/people/gede-rajeg)
 
 ## Overview
 
-This repository will provide materials for *Diponegoro Summer Course in
-Corpus Linguistics 2024* (DipSCORLING 2024) (22 - 27 July 2024 via
-Zoom). My involvement in DipSCORLING 2024 represents a pedagogical goal
-of [*CompLexico*](https://github.com/complexico) in introducing
-computer-assisted method for the study of language to linguistic
-students and researchers in Indonesia and beyond.
+This repository will provide my materials for *Diponegoro Summer Course
+in Corpus Linguistics 2024* (DipSCORLING 2024) (22 - 27 July 2024 via
+Zoom). DipSCORLING 2024 facilitates a pedagogical goal of the
+[*CompLexico*](https://github.com/complexico) research sub-group within
+[CIRHSS](https://www.cirhss.org/) in introducing computer-assisted
+method for the study of language to linguistic students and researchers
+in Indonesia and beyond.
 
 ## Registration information
 
@@ -36,6 +38,6 @@ group-post](https://www.facebook.com/groups/471206953085498/permalink/2325617937
 - Planned schedule
   [here](https://docs.google.com/document/d/1KQHpSOUkBb7DDr_VB1XMvGZ8zUulzJvwF0to2l-ZhFA/mobilebasic?)
 
-------------------------------------------------------------------------
+## Flyer
 
 <img src="IMG_3727.JPG" width="4000" />
