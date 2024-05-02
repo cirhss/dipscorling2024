@@ -1,25 +1,35 @@
+DipSCORLING 2024
+================
 [Gede Primahadi Wijaya
 Rajeg](https://www.ling-phil.ox.ac.uk/people/gede-rajeg)
 <a itemprop="sameAs" content="https://orcid.org/0000-0002-2047-8621" href="https://orcid.org/0000-0002-2047-8621" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"></a>
 
+- [Overview](#overview)
+- [Registration information](#registration-information)
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-
-# DipSCORLING 2024
-
 <!-- badges: start -->
+
+------------------------------------------------------------------------
+
+<img src="IMG_3727.JPG" width="4000" />
+
 <!-- badges: end -->
 
 ## Overview
 
-This repository will provide materials for the *Diponegoro Summer Course
-in Corpus Linguistics 2024* (DipSCORLING 2024) (22 - 27 July 2024 via
-Zoom).
+This repository will provide materials for *Diponegoro Summer Course in
+Corpus Linguistics 2024* (DipSCORLING 2024) (22 - 27 July 2024 via
+Zoom). My involvement in DipSCORLING 2024 represents a pedagogical goal
+of [*CompLexico*](https://github.com/complexico) in introducing
+computer-assisted method for the study of language to linguistic
+students and researchers in Indonesia and beyond.
 
-## Important information
+## Registration information
 
 Below are some important information regarding registration (source:
-[this Facebook group
-post](https://www.facebook.com/groups/471206953085498/permalink/2325617937644381/)):
+[Prihantoro’s Facebook
+group-post](https://www.facebook.com/groups/471206953085498/permalink/2325617937644381/)):
 
 - Registration page (open from 1 May - 3 June 2024):
   <https://admission.undip.ac.id>
@@ -30,7 +40,3 @@ post](https://www.facebook.com/groups/471206953085498/permalink/2325617937644381
 
 - Planned schedule
   [here](https://docs.google.com/document/d/1KQHpSOUkBb7DDr_VB1XMvGZ8zUulzJvwF0to2l-ZhFA/mobilebasic?)
-
-------------------------------------------------------------------------
-
-<img src="IMG_3727.JPG" width="4000" />
