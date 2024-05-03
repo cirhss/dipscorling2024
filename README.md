@@ -16,9 +16,9 @@ Rajeg](https://www.ling-phil.ox.ac.uk/people/gede-rajeg)
 
 This repository will provide my materials for *Diponegoro Summer Course
 in Corpus Linguistics 2024* (DipSCORLING 2024) (22 - 27 July 2024 via
-Zoom). DipSCORLING 2024 facilitates a pedagogical goal of the
-[*CompLexico*](https://github.com/complexico) research sub-group within
-[CIRHSS](https://www.cirhss.org/) in introducing computer-assisted
+Zoom). DipSCORLING 2024 facilitates a pedagogical goal of
+[*CompLexico*](https://github.com/complexico) (a research group within
+[CIRHSS](https://www.cirhss.org/)) in introducing computer-assisted
 method for the study of language to linguistic students and researchers
 in Indonesia and beyond.
 
