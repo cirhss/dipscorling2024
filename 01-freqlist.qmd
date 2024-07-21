@@ -308,6 +308,75 @@ See Gries [-@gries2017, 13-14] and Miller [-@miller2020, 77-78] for details
 -   Practices
 
     -   also need a spreadsheet software (e.g., Excel, LibreOffice Calc, Google Spreadsheet)
+    
+## Demo & Practice {.scrollable}
+
+-   Demo:
+
+    -   Queries: Basic ~~& Advanced~~ features of SE's *Wordlist*
+    
+
+![](img/demo-01-wordlist-basic-search-interface.png){.absolute top="300" left="0" width="90%"}
+
+::: {.absolute right="90" bottom="80" style="font-size:.6em;"}
+Layer 1:
+
+Various restricted searches (words, lemmas, POS)
+
+Layer 2:
+
+Capturing all or parts of the units restricted in Layer 1
+:::
+
+
+## Demo & Practice {.scrollable}
+
+-   Demo:
+
+    -   Queries: ~~Basic &~~ Advanced features of SE's *Wordlist*
+    
+![](img/demo-02-wordlist-advanced-search-interface.png){.absolute top="250" left="0" width="75%"}
+
+## Demo & Practice {.scrollable}
+
+- Demo: Advanced feature
+
+- Question:
+
+    - contrasting the list of nouns in the Mystery sub-genre of the Fiction genre of the American vs. British variety of the Brown Family
+    
+- Requirement(s):
+
+    - the preloaded Brown Family has provided the (combined) subcorpora category for “American” and “British”
+    
+    - two searches: one for each variety
+    
+    - save each output into .csv
+    
+    - Explore the first 30 items: are there non-overlapping nouns? How many of them?
+    
+- Operationalisation (demo):
+
+    - Find^?^: **noun** (layer 1) ; **all** (layer 2)
+    
+    - Display as: 
+    
+        - check `tag`
+        
+        - check `lemma` (check the `A = a` of `lemma`)
+    
+    - Text types:
+    
+        - doc.genre: Mystery sub-genre of Fiction
+        
+        - doc.region: American
+        
+- Results (demo)
+
+
+    - save into .csv and call it `noun-in-mystery-brownfam-AmE.csv`
+    
+    - run the search for British by changing only one criteria: doc.region (DEMO) 
 
 # End of `Frequency List`
 
