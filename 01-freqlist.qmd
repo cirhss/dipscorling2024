@@ -1,0 +1,316 @@
+---
+title: "Frequency List"
+author: 
+  - name:
+      given: "Gede Primahadi Wijaya"
+      family: "Rajeg"
+    orcid: 0000-0002-2047-8621
+    affiliation:
+      - '<a href="https://www.cirhss.org/" target="_blank" style="color:DodgerBlue;">CIRHSS</a> & <a href="https://github.com/complexico" target="_blank" style="color:DodgerBlue;">CompLexico</a>, Udayana University; University of Oxford'
+format: 
+  revealjs:
+    slide-number: true
+    preview-links: auto
+    css: style.css
+date: 2024-07-20
+date-modified: now
+editor: visual
+bibliography: references.bib
+csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/unified-style-sheet-for-linguistics.csl"
+---
+
+## Outline
+
+::: incremental
+1.  What is a frequency list?
+
+2.  Two basic types of frequency
+
+3.  Frequency of different linguistic units
+
+4.  Examples of uses of frequency list
+
+5.  Demo & Practice
+:::
+
+## What is a frequency list?
+
+-   "The most basic corpus-linguistic tool" [@gries2017, 12]
+
+-   How often a given [linguistic unit]{.underline} occurs in a corpus
+
+    -   Often, this unit is a *word*
+
+## What is a frequency list?
+
+![*Words* (starting with `gl`) and their frequency of occurrences](img/01-freqlist-simple.png){fig-align="left"}
+
+# But, what's a word? 🤔
+
+## What is a word?
+
+::: incremental
+::: extrapad
+-   "entities in text that are separated by either white-space or punctuation." [@weisser2016, 147]
+
+    -   how about: *can't*, *widely-held*, *co-operate*, or *white-space*?
+:::
+:::
+
+## What is a word?
+
+### *English compound*
+
+::: incremental
+-   **written together**: *icecream* (14,590 matches)
+
+-   **hypenated**: *ice-cream* (55,506 matches)
+
+-   **separated by white-space**: *ice cream* (676,402 matches)
+:::
+
+Searches done in *English Web 2021* in Sketch Engine (SE)
+
+## What is a word?
+
+-   Practical consideration: *tool-specific*
+
+-   In SE:
+
+    -   "begin with a letter of the alphabet" (<https://www.sketchengine.eu/my_keywords/word/>)
+
+    -   Examples: *book*, *working*, *Mary*, *T-shirt*, *post-1945*, *mp3* or *CO2*
+
+-   Methodological consideration:
+
+    -   be explicit about word criteria (e.g., in the tool used)
+
+## Outline
+
+::: nonincremental
+~~1. What is a frequency list?~~
+
+2.  Two basic types of frequency
+
+3.  Frequency of different linguistic units
+
+4.  Examples of uses of frequency list
+
+5.  Demo & Practice
+:::
+
+## Two basic types of frequency
+
+> Types vs. Tokens [cf. @cheng2012, 62; @gries2017, 12]
+
+-   Types: the number of unique/distinct words in a corpus
+
+-   Tokens:
+
+    -   the total occurrences of all (unique) words in a corpus
+
+    -   the total occurrences of **a** (unique) word in a corpus
+
+## Two basic types of frequency
+
+> Types vs. Tokens [cf. @cheng2012, 62; @gries2017, 12]
+
+*The sky is sky blue while the estuary is turquoise.*
+
+::: incremental
+-   Tokens: 10 (2 tokens of *sky*, 2 tokens of *the*, 2 tokens of *is*, ...)
+
+-   Types: 7 (*the*, *sky*, *is*, *blue*, ...)
+:::
+
+![](img/02-bak-blau-Enggano.JPG){.absolute bottom="40" right="0" width="50%"}
+
+::: {.absolute right="0" bottom="10" style="font-size:.4em;"}
+The estuary of the Bak Blau lake, on the Enggano island, Indonesia.
+:::
+
+## Two basic types of frequency {.scrollable}
+
+> absolute vs. relative
+
+-   absolut frequency:
+
+    -   real, observed freq. of an item in the (sub)corpus
+
+-   relative frequency:
+
+    -   normalised frequency of an item on the basis of a base frequency (usually 1 million word-tokens) (cf. [SE's page here](https://www.sketchengine.eu/my_keywords/freqmill/) for the formula)
+
+    -   often used in comparing frequency of the same word in two different corpus that are not equal in size
+
+-   SE allows both options.
+
+## Two basic types of frequency {.scrollable}
+
+> absolute vs. relative
+
+How to compute the relative frequency of a linguistic item
+
+$$
+Rel. Freq = \frac{absolute frequency \times 1,000,000}{corpus size}
+$$
+
+## Two basic types of frequency {.scrollable}
+
+> absolute vs. relative
+
+### Relative frequency: Examples
+
+Say, in the ICE-GB corpus, you found the following [see @gries2010, 271] :
+
+-   297 tokens of *give* (in the **spoken** sub-corpus)
+
+-   144 tokens of *give* (in the **written** sub-corpus)
+
+-   128 tokens of *bring* (in the **spoken** sub-corpus)
+
+-   69 tokens of *bring* (in the **written** sub-corpus)
+
+The size of [ICE-GB~spoken~ is 637,682]{style="color:crimson"} (word-tokens) while the size of [ICE-GB~written~ is 423,581]{style="color:crimson"} (word-tokens). The relative frequencies of *give* and *bring* in the two sub-corpora become:
+
+$$
+give_s : \frac{297 \times 1,000,000}{637,682} \approx 465.75
+$$
+
+$$
+give_w : \frac{144 \times 1,000,000}{423,581} \approx 339.96
+$$
+
+$$
+bring_s : \frac{128 \times 1,000,000}{637,682} \approx 200.73
+$$
+
+$$
+bring_w : \frac{69 \times 1,000,000}{423,581} \approx 162.9
+$$
+
+## Two basic types of frequency {.scrollable}
+
+::: panel-tabset
+### Take away
+
+Important to know how to compute relative frequency!
+
+Sometimes (most of the time?), the corpus-software tool we use **cannot** do want we want.
+
+### Examples
+
+```{r affix-productivity, fig.cap="Productivity analysis (based on __relative type frequency__) of four Indonesian verbal prefixes across genres [@rajeg2023]."}
+knitr::include_graphics(path = "img/03-rajeg-denistia-2023.png")
+```
+:::
+
+## Outline
+
+::: nonincremental
+~~1. What is a frequency list?~~
+
+~~2. Two basic types of frequency~~
+
+3.  Frequency of different linguistic units
+
+4.  Examples of uses of frequency list
+
+5.  Demo & Practice
+:::
+
+## Frequency of different linguistic units {.scrollable}
+
+-   words
+
+    -   words and their word class (i.e., part-of-speech)
+
+    -   words containing particular strings/characters (e.g., prefixes/suffixes)
+
+    -   ...
+
+-   lemmas
+
+    -   the base/uninflected form of words from a given part-of-speech
+
+        -   the verbs *go*, *went*, *going*, *gone*, *goes* are word-forms for the same lemma GO
+
+-   n-grams (multi-word units with n-number of components)
+
+    -   *part of the*, *for the purposes*, *on behalf of the*, ...
+
+-   word sequence, phrases
+
+    -   phrases containing a fixed word
+
+    -   ...
+
+## Outline
+
+::: nonincremental
+~~1. What is a frequency list?~~
+
+~~2. Two basic types of frequency~~
+
+~~3. Frequency of different linguistic units~~
+
+4.  Examples of uses of frequency list
+
+5.  Demo & Practice
+:::
+
+## Uses of (word-)frequency list {.scrollable}
+
+-   List of frequently occurring lexical items (e.g., General Service List \[West 1953\], Academic Word List \[Coxhead 2000\])
+
+-   Usage-based Cognitive Linguistics
+
+    -   degree of productivity (based on type frequency) and cognitive entrenchment (based on token frequency) of certain linguistic units
+
+-   Choosing experimental stimuli
+
+-   Spelling error correction
+
+-   Determining vocabulary sizes of learners
+
+-   Selection and ordering of language features in course textbooks
+
+-   In other corpus linguistic tools: keyword and collocation statistics
+
+-   ...
+
+See Gries [-@gries2017, 13-14] and Miller [-@miller2020, 77-78] for details
+
+## Outline
+
+::: nonincremental
+~~1. What is a frequency list?~~
+
+~~2. Two basic types of frequency~~
+
+~~3. Frequency of different linguistic units~~
+
+~~4. Examples of uses of frequency list~~
+
+5.  Demo & Practice
+:::
+
+## Demo & Practice {.scrollable}
+
+-   Demo:
+
+    -   Queries: Basic & Advanced features of SE's *Wordlist*
+
+    -   Outputs: Options for exploring outputs
+
+-   Corpus: `Brown Family (CLAWS + TreeTagger tags)`
+
+-   Practices
+
+    -   also need a spreadsheet software (e.g., Excel, LibreOffice Calc, Google Spreadsheet)
+
+# End of `Frequency List`
+
+(slides: <https://github.com/complexico/dipscorling2024>)
+
+## References

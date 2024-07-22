@@ -1,0 +1,118 @@
+---
+title: "Frequency List: Practice"
+author: 
+  - name:
+      given: "Gede Primahadi Wijaya"
+      family: "Rajeg"
+    orcid: 0000-0002-2047-8621
+    affiliation:
+      - '<a href="https://www.cirhss.org/" target="_blank" style="color:DodgerBlue;">CIRHSS</a> & <a href="https://github.com/complexico" target="_blank" style="color:DodgerBlue;">CompLexico</a>, Udayana University; University of Oxford'
+date: 2024-07-20
+date-modified: now
+format: 
+  html:
+    toc: true
+    toc-location: left
+    number-sections: true
+    number-depth: 3
+editor: visual
+bibliography: references.bib
+csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/unified-style-sheet-for-linguistics.csl"
+---
+
+For this practice, we will use the `Brown Family (CLAWS + TreeTagger tags)` corpus.
+
+## Practice 1: Words beginning with certain strings
+
+We will compare the results of retrieving words starting with certain strings/character using two approaches:
+
+a.  Retrieving all words then filter
+
+b.  Directly using BASIC's `starting with` approach
+
+Pay attention to the results. Why do you think they differ?
+
+-   IMPLICATION 1: some limitation of SE regarding their result outputs.
+
+-   IMPLICATION 2: important for our aim to target/generate specific list with certain criteria using more targeted feature.
+
+### First approach: The basic, find all approach then filtering
+
+1.  In the `BASIC` tab (@fig-basic), select: **words** \> **all** \> [**GO**]{style="color:firebrick"}
+
+```{r}
+#| label: fig-basic
+#| fig-cap: "Wordlist `BASIC` interface searching for all words"
+#| echo: false
+
+knitr::include_graphics("img/04-practice-00-basic.png")
+```
+
+2.  On the output page of the Wordlist (see @fig-filter), click on the `Filter` feature (i.e., the up-side-down triangle lines, to the right of the "eye-like" symbol on the upper right corner).
+
+3.  Select the option `Starting with` as shown in @fig-filter below.
+
+```{r}
+#| label: fig-filter
+#| fig-cap: "`Filter` option in the Wordlist output, choosing the `Starting with` condition."
+#| echo: false
+knitr::include_graphics("img/04-practice-01-filter.png")
+```
+
+4.  Type in "kn" in the field
+
+5.  Press `Enter`; the result is shown in @fig-kn-result
+
+```{r}
+#| label: fig-kn-result
+#| fig-cap: "Output of filtering words starting with `kn` in the all word list."
+#| echo: false
+
+knitr::include_graphics("img/04-practice-02-filter-results.png")
+```
+
+You will get five items.
+
+### Second approach (your turn): The basic, `Starting with` feature
+
+1.  In the `BASIC` tab, instead of using **words** \> **all**, use **words** \> **starting with**
+
+2.  Then, type `kn` then hit [**GO**]{style="color:firebrick"}
+
+3.  Compare the current results with that in @fig-kn-result. How many do you get? (Answer key (you need to LOGIN 😒): <https://ske.li/15i>)
+
+    3.1. Why do they differ?
+
+## Practice 2: Words of certain word-class/part-of-speech containing certain affixes
+
+We are still in the `BASIC` tab. We will explore the productivity (the number of different items/type frequency) of English adjectives containing suffixes. We focus on suffixes meaning 'having a resemblance of', particularly comparing -*esque* (which has a more specialised meaning of 'in the style of \~') and -*ish* [see @bauer2022, 55].
+
+### Requirement
+
+-   IMPORTANT: This involves results from two searches: one for each suffix
+
+-   Later, in the output interface, look at the upper left corner to find basic quantitative information:
+
+    -   the number of items (i.e., the type frequency)
+
+    -   the total frequency of these items (i.e., the token frequency especially of adjectives having these suffixes)
+
+### Task
+
+-   Conceptual aspect:
+
+    -   try to intuite which suffix would be more productive, in terms of their type and token frequency, in the corpus we use (later check this intuition with the results).
+
+-   Operationalisation:
+
+    -   How would you device a targeted search using just the `BASIC` feature to retrieve **only adjectives** ending with these suffixes? 🤔
+
+    -   REMEMBER: you need to run two searches for each suffix
+
+-   Results:
+
+    -   How many items there are for -*esque* and what is the total frequency of these -*esque* adjectives? (Answer key: <https://ske.li/15k>)
+
+    -   How many items there are for -*ish* and what is the total frequency of these -*ish* adjectives? (Answer key: <https://ske.li/15l>)
+
+    -   Which suffix is more productive (in terms of the total number of items) in this `Brown Family (CLAWS + TreeTagger tags)` corpus? Is your intuition supported by the data?
