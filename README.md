@@ -11,6 +11,9 @@ Rajeg](https://www.ling-phil.ox.ac.uk/people/gede-rajeg)
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12793922.svg)](https://zenodo.org/doi/10.5281/zenodo.12793922)
+
 <!-- badges: end -->
 
 ## How to cite
@@ -20,8 +23,11 @@ you use it in your teaching/research as follows:
 
 > Rajeg, Gede Primahadi Wijaya. 2024. Materials for the Diponegoro
 > Summer Course in Corpus Linguistics (DipSCORLING 2024) (22 - 27 July
-> 2024). R Quarto. <https://github.com/complexico/dipscorling2024>. (22
-> July, 2024).
+> 2024). R Quarto. Zenodo. <https://doi.org/10.5281/zenodo.12793922>.
+> (22 July, 2024).
+
+Check the released versioning of this repository
+[here](https://github.com/complexico/dipscorling2024/releases).
 
 ## Overview
 
