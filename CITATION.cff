@@ -1,0 +1,26 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Materials for the Diponegoro Summer Course in Corpus
+  Linguistics (DipSCORLING 2024) (22 - 27 July 2024)
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - given-names: Gede Primahadi Wijaya
+    family-names: Rajeg
+    affiliation: University of Oxford & Udayana University
+    orcid: 'https://orcid.org/0000-0002-2047-8621'
+identifiers:
+  - type: url
+    value: 'https://github.com/complexico/dipscorling2024'
+    description: Source repository
+keywords:
+  - corpus linguistics
+  - linguistik korpus
+license: CC-BY-NC-SA-4.0
+version: 1.0.0
+date-released: '2024-07-20'
