@@ -11,8 +11,20 @@ lexverbfiles
 lxv <- bind_rows(editorial_ame, editorial_bre, reportage_ame, reportage_bre)
 lxv
 
+## tag by genres ====
 lxv |> 
   filter(Frequency > 1000) |> 
   filter(Item %in% c("VVI", "VVN", "VVG", "VVD", "VVO", "VVZ")) |> 
   ggplot(aes(x = genre, y = `Relative frequency`, fill = Item)) +
-  geom_bar(stat = "identity", position = "dodge")
+  geom_bar(stat = "identity", position = "dodge") +
+  theme_bw()
+
+## tag by genres faceted by variety ====
+lxv |> 
+  filter(Frequency > 1000) |> 
+  filter(Item %in% c("VVI", "VVN", "VVG", "VVD", "VVO", "VVZ")) |> 
+  ggplot(aes(x = genre, y = `Relative frequency`, fill = Item)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  facet_wrap(~variety) +
+  theme_bw()
+ggsave("results/fig-01-lexical-verb-tags-by-variety.png", height = 4, width = 7)

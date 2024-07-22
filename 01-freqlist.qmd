@@ -4,6 +4,7 @@ author:
   - name:
       given: "Gede Primahadi Wijaya"
       family: "Rajeg"
+    url: https://www.ling-phil.ox.ac.uk/people/gede-rajeg
     orcid: 0000-0002-2047-8621
     affiliation:
       - '<a href="https://www.cirhss.org/" target="_blank" style="color:DodgerBlue;">CIRHSS</a> & <a href="https://github.com/complexico" target="_blank" style="color:DodgerBlue;">CompLexico</a>, Udayana University; University of Oxford'
@@ -11,7 +12,7 @@ format:
   revealjs:
     slide-number: true
     preview-links: auto
-    css: style.css
+    css: styles.css
 date: 2024-07-20
 date-modified: now
 editor: visual
@@ -201,6 +202,9 @@ Sometimes (most of the time?), the corpus-software tool we use **cannot** do wan
 ### Examples
 
 ```{r affix-productivity, fig.cap="Productivity analysis (based on __relative type frequency__) of four Indonesian verbal prefixes across genres [@rajeg2023]."}
+#| echo: false
+#| out-width: 7in
+#| out-height: 4in
 knitr::include_graphics(path = "img/03-rajeg-denistia-2023.png")
 ```
 :::
@@ -308,13 +312,12 @@ See Gries [-@gries2017, 13-14] and Miller [-@miller2020, 77-78] for details
 -   Practices
 
     -   also need a spreadsheet software (e.g., Excel, LibreOffice Calc, Google Spreadsheet)
-    
+
 ## Demo & Practice {.scrollable}
 
 -   Demo:
 
     -   Queries: Basic ~~& Advanced~~ features of SE's *Wordlist*
-    
 
 ![](img/demo-01-wordlist-basic-search-interface.png){.absolute top="300" left="0" width="90%"}
 
@@ -328,55 +331,53 @@ Layer 2:
 Capturing all or parts of the units restricted in Layer 1
 :::
 
-
 ## Demo & Practice {.scrollable}
 
 -   Demo:
 
     -   Queries: ~~Basic &~~ Advanced features of SE's *Wordlist*
-    
+
 ![](img/demo-02-wordlist-advanced-search-interface.png){.absolute top="250" left="0" width="75%"}
 
 ## Demo & Practice {.scrollable}
 
-- Demo: Advanced feature
+-   Demo: Advanced feature
 
-- Question:
+-   Question:
 
-    - contrasting the list of nouns in the Mystery sub-genre of the Fiction genre of the American vs. British variety of the Brown Family
-    
-- Requirement(s):
+    -   contrasting the list of nouns in the Mystery sub-genre of the Fiction genre of the American vs. British variety of the Brown Family
 
-    - the preloaded Brown Family has provided the (combined) subcorpora category for “American” and “British”
-    
-    - two searches: one for each variety
-    
-    - save each output into .csv
-    
-    - Explore the first 30 items: are there non-overlapping nouns? How many of them?
-    
-- Operationalisation (demo):
+-   Requirement(s):
 
-    - Find^?^: **noun** (layer 1) ; **all** (layer 2)
-    
-    - Display as: 
-    
-        - check `tag`
-        
-        - check `lemma` (check the `A = a` of `lemma`)
-    
-    - Text types:
-    
-        - doc.genre: Mystery sub-genre of Fiction
-        
-        - doc.region: American
-        
-- Results (demo)
+    -   the preloaded Brown Family has provided the (combined) subcorpora category for “American” and “British”
 
+    -   two searches: one for each variety
 
-    - save into .csv and call it `noun-in-mystery-brownfam-AmE.csv`
-    
-    - run the search for British by changing only one criteria: doc.region (DEMO) 
+    -   save each output into .csv
+
+    -   Explore the first 30 items: are there non-overlapping nouns? How many of them?
+
+-   Operationalisation (demo):
+
+    -   Find^?^: **noun** (layer 1) ; **all** (layer 2)
+
+    -   Display as:
+
+        -   check `tag`
+
+        -   check `lemma` (check the `A = a` of `lemma`)
+
+    -   Text types:
+
+        -   doc.genre: Mystery sub-genre of Fiction
+
+        -   doc.region: American
+
+-   Results (demo)
+
+    -   save into .csv and call it `noun-in-mystery-brownfam-AmE.csv`
+
+    -   run the search for British by changing only one criteria: doc.region (DEMO)
 
 # End of `Frequency List`
 
