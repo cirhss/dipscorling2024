@@ -93,7 +93,43 @@ You will get five items.
 
     3.1. Why do they differ?
 
-## Practice 2: *windshield* vs. *windscreen*
+## Practice 2: Words of certain word-class/part-of-speech containing certain affixes
+
+We are still in the `BASIC` tab. We will explore the productivity (the number of different items/type frequency) of English adjectives containing suffixes. We focus on suffixes meaning 'having a resemblance of', particularly comparing -*esque* (which has a more specialised meaning of 'in the style of \~') and -*ish* [see @bauer2022, 55].
+
+### Requirement
+
+-   IMPORTANT: This involves results from two searches: one for each suffix
+
+-   Later, in the output interface, look at the upper left corner to find basic quantitative information:
+
+    -   the number of items (i.e., the type frequency)
+
+    -   the total frequency of these items (i.e., the token frequency especially of adjectives having these suffixes)
+
+### Task
+
+-   Conceptual aspect:
+
+    -   try to intuite which suffix would be more productive, in terms of their type and token frequency, in the corpus we use (later check this intuition with the results).
+
+-   Operationalisation:
+
+    -   How would you devise a targeted search using just the `BASIC` feature to retrieve **only adjectives** ending with these suffixes? 🤔
+
+    -   REMEMBER: you need to run two searches for each suffix
+
+-   Results:
+
+    -   How many items are there for -*esque* and what is the total frequency of these -*esque* adjectives? (Answer key: <https://ske.li/15k>)
+
+    -   How many items are there for -*ish* and what is the total frequency of these -*ish* adjectives? (Answer key: <https://ske.li/15l>)
+
+    -   Which suffix is more productive (in terms of the total number of items) in this `Brown Family (CLAWS + TreeTagger tags)` corpus? Is your intuition supported by the data?
+
+## Practice 3: *windshield* vs. *windscreen*
+
+We are now in the `ADVANCED` tab of Wordlist.
 
 ### Task
 
@@ -136,40 +172,6 @@ You will get five items.
 - Do you learn a pattern of use of these two words from their frequency searches? Let's discuss!
 
 This practice is inspired from Stefanowitsch [-@stefanowitsch2020].
-
-## Practice 3: Words of certain word-class/part-of-speech containing certain affixes
-
-We are still in the `BASIC` tab. We will explore the productivity (the number of different items/type frequency) of English adjectives containing suffixes. We focus on suffixes meaning 'having a resemblance of', particularly comparing -*esque* (which has a more specialised meaning of 'in the style of \~') and -*ish* [see @bauer2022, 55].
-
-### Requirement
-
--   IMPORTANT: This involves results from two searches: one for each suffix
-
--   Later, in the output interface, look at the upper left corner to find basic quantitative information:
-
-    -   the number of items (i.e., the type frequency)
-
-    -   the total frequency of these items (i.e., the token frequency especially of adjectives having these suffixes)
-
-### Task
-
--   Conceptual aspect:
-
-    -   try to intuite which suffix would be more productive, in terms of their type and token frequency, in the corpus we use (later check this intuition with the results).
-
--   Operationalisation:
-
-    -   How would you devise a targeted search using just the `BASIC` feature to retrieve **only adjectives** ending with these suffixes? 🤔
-
-    -   REMEMBER: you need to run two searches for each suffix
-
--   Results:
-
-    -   How many items are there for -*esque* and what is the total frequency of these -*esque* adjectives? (Answer key: <https://ske.li/15k>)
-
-    -   How many items are there for -*ish* and what is the total frequency of these -*ish* adjectives? (Answer key: <https://ske.li/15l>)
-
-    -   Which suffix is more productive (in terms of the total number of items) in this `Brown Family (CLAWS + TreeTagger tags)` corpus? Is your intuition supported by the data?
 
 ## Practice 4: Frequency of lexical-verb tags in American (AmE) vs. British (BrE) English for the Press: Editorial (AmE & BrE) vs. Press: Reportage (AmE & BrE)
 
@@ -220,7 +222,7 @@ We are still in the `BASIC` tab. We will explore the productivity (the number of
 
     -   There are several list of verb tags, focus on comparing a given tag between Editorial and Reportage (within variety) and between the same sub-genre across variety.
 
-    -   For more insightful analysese, we need to further process these datasets in Excel or in statistical programming language such as R.
+    -   For more insightful analyses, we need to further process these datasets in Excel or in statistical programming language such as R.
 
         -   Most of the time, corpus tools like Sketch Engine or AntConc are just part of the means (e.g., providing raw data) to an end. For example, we might want to directly visualise the distribution (i.e., relative frequency) of selected tags by genres between varieties as shown in @fig-lexverb-tag. This requires processing the output of corpus tool further that these two corpus tools cannot do. The graph in @fig-lexverb-tag is produced in R ([code file](https://github.com/complexico/dipscorling2024/blob/main/01-freqlist-code.R)) based on the [data in the repository here](https://github.com/complexico/dipscorling2024/tree/main/results) (see the .csv files starting with `lex-verb-...`).
         

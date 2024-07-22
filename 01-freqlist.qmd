@@ -134,7 +134,7 @@ The estuary of the Bak Blau lake, on the Enggano island, Indonesia.
 
 > absolute vs. relative
 
--   absolut frequency:
+-   absolute frequency:
 
     -   real, observed freq. of an item in the (sub)corpus
 
@@ -197,7 +197,7 @@ $$
 
 Important to know how to compute relative frequency!
 
-Sometimes (most of the time?), the corpus-software tool we use **cannot** do want we want.
+Sometimes (most of the time?), the corpus-software tool we use **cannot** do what we want.
 
 ### Examples
 
