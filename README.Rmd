@@ -20,6 +20,12 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
+## How to cite
+
+In Unified style sheet for linguistics, you can cite this repository if you use it in your teaching/research as follows:
+
+> Rajeg, Gede Primahadi Wijaya. 2024. Materials for the Diponegoro Summer Course in Corpus Linguistics (DipSCORLING 2024) (22 - 27 July 2024). R Quarto. https://github.com/complexico/dipscorling2024. (22 July, 2024).
+
 ## Overview
 
 This repository will provide my materials for *Diponegoro Summer Course in Corpus Linguistics 2024* (DipSCORLING 2024) (22 - 27 July 2024 via Zoom). DipSCORLING 2024 facilitates a pedagogical goal of [*CompLexico*](https://github.com/complexico) (a research group within [CIRHSS](https://www.cirhss.org/)) in introducing computer-assisted method for the study of language to linguistic students and researchers in Indonesia and beyond.

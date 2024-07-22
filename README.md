@@ -4,6 +4,7 @@ DipSCORLING 2024
 Rajeg](https://www.ling-phil.ox.ac.uk/people/gede-rajeg)
 <a itemprop="sameAs" content="https://orcid.org/0000-0002-2047-8621" href="https://orcid.org/0000-0002-2047-8621" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"></a>
 
+- [How to cite](#how-to-cite)
 - [Overview](#overview)
 - [Registration information](#registration-information)
 - [Flyer](#flyer)
@@ -11,6 +12,16 @@ Rajeg](https://www.ling-phil.ox.ac.uk/people/gede-rajeg)
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
 <!-- badges: end -->
+
+## How to cite
+
+In Unified style sheet for linguistics, you can cite this repository if
+you use it in your teaching/research as follows:
+
+> Rajeg, Gede Primahadi Wijaya. 2024. Materials for the Diponegoro
+> Summer Course in Corpus Linguistics (DipSCORLING 2024) (22 - 27 July
+> 2024). R Quarto. <https://github.com/complexico/dipscorling2024>. (22
+> July, 2024).
 
 ## Overview
 
