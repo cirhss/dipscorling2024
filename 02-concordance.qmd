@@ -27,9 +27,11 @@ csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/un
 
 2.  What can we learn from looking at concordance lines?
 
-3. My typical workflow in analysing concordance
+3.  Common aspects to look at from concordance
 
-4.  Demo & Practice
+4.  My typical workflow in analysing concordance
+
+5.  Practice
 :::
 
 ## What is a concordance?
@@ -113,9 +115,11 @@ Take away:
 
 2.  What can we learn from looking at concordance lines?
 
-3. My typical workflow in analysing concordance
+3.  Common aspects to look at from concordance
 
-4.  Demo & Practice
+4.  My typical workflow in analysing concordance
+
+5.  Practice
 :::
 
 ## What can we learn from looking at concordance lines? {.scrollable}
@@ -139,43 +143,216 @@ Left-context sorting for the [concordance of *charm*](https://ske.li/15z). Any r
 :::
 
 ::: {.absolute left="30" bottom="10" style="font-size:.5em;"}
-Concordance link: [https://ske.li/15z](https://ske.li/15z)
+Concordance link: <https://ske.li/15z>
 :::
 
 ## What can we learn from looking at concordance lines? {.scrollable}
 
 See Hunston[-@hunston2002, 42-52] for details of the following points.
 
-- “Observing the ‘central’ and ‘typical’”
+-   “Observing the ‘central’ and ‘typical’”
 
-    - <span style="color:LightSeaGreen">in frequency terms</span>
+    -   [in frequency terms]{style="color:LightSeaGreen"}
 
-- “Observing meaning distinctions”
+-   “Observing meaning distinctions”
 
-    - <span style="color:LightSeaGreen">different usage patterns of near-synonyms</span>
+    -   [different usage patterns of near-synonyms]{style="color:LightSeaGreen"}
 
-- “Observing meaning and patterns”
+-   “Observing meaning and patterns”
 
-    - <span style="color:LightSeaGreen">distinct senses/meanings of a word and their patternings (lexical, morpho-syntactical, morphological, etc.)</span>
-    
-    - “<span style="color:SteelBlue">Distinguishing between the meanings is a matter of distinguishing between patterns of usage.” [@hunston2002, 47]</span>
+    -   [distinct senses/meanings of a word and their patternings (lexical, morpho-syntactical, morphological, etc.) [cf. @gries2006]]{style="color:LightSeaGreen"}
 
-- “Observing detail”
+    -   “[Distinguishing between the meanings is a matter of distinguishing between patterns of usage.” [@hunston2002, 47]]{style="color:SteelBlue"}
 
-    - <span style="color:LightSeaGreen">mass of data, more specific observation of individual words</span>
-    
-    - e.g., <span style="color:SteelBlue">different semantic type of verbs following the phrase *advice~noun~ as to* [@hunston2002, 52]</span>  
+-   “Observing detail”
+
+    -   [mass of data, more specific observation of individual words]{style="color:LightSeaGreen"}
+
+    -   e.g., [different semantic type of verbs following the phrase *advice~noun~ as to* [@hunston2002, 52]]{style="color:SteelBlue"}
 
 ## Roadmap
 
 ::: nonincremental
 ~~1. What is a concordance?~~
 
-~~2.  What can we learn from looking at concordance lines?~~
+~~2. What can we learn from looking at concordance lines?~~
 
-3. My typical workflow in analysing concordance
+3.  Common aspects to look at from concordance
 
-4.  Demo & Practice
+4.  My typical workflow in analysing concordance
+
+5.  Practice
 :::
+
+## Common aspect to look at from concordance {.scrollable}
+
+See Sinclair [-@sinclair2004, Ch. 2] for further details for “The search for units of meaning”
+
+::: incremental
+-   *collocation* [@sinclair2004, 28]: [“a frequent co-occurrence of words”]{style="color:crimson"}
+
+-   *colligation* [@sinclair2004, 32]: [“co-occurrence of grammatical choices”]{style="color:crimson"}
+
+-   *semantic preference*
+
+    -   semantic abstraction/categorisation from a group of collocates
+
+    -   example:
+
+        -   categorising the semantic type of noun collocates of the EXPERIENCER argument of ANGRY vs. MAD [@suari2024]; categorisation based on the cross-linguistic semantic catalogue *Concepticon* [@list]
+
+            -   [visualising the results](https://github.com/complexico/anger-mad-coca/blob/main/figs/08-fig3-8-Experiencer-collocates.png) based on the collocation strength of these collocates with the adjectives in COCA corpus
+
+- *semantic prosody*
+
+    - pragmatic aura of the context surrounding the node word
+
+    - typically whether the context is positive or negative
+:::
+
+## Roadmap
+
+::: nonincremental
+~~1. What is a concordance?~~
+
+~~2. What can we learn from looking at concordance lines?~~
+
+~~3.  Common aspects to look at from concordance~~
+
+4.  My typical workflow in analysing concordance
+
+5.  Practice
+:::
+
+## My typical workflow in analysing concordance {.scrollable}
+
+-   Define my research question(s) (RQs)
+
+    -   [usually within theoretical contexts, mainly in Cognitive Linguistics (esp. cognitive lexical semantics & construction grammar) and/or Austronesian/Indonesian linguistics.]{style="color:SteelBlue"}
+
+-   Extract concordances of the phenomenon from a corpus (not using Sketch Engine)
+
+    -   remember, [concordance is *just* a way to display the raw data]{style="color:crimson"}
+
+    -   [operationalise your RQs]{style="color:SteelBlue"} such that they [translate into **what** to extract]{style="color:SteelBlue"} from the corpus to retrieve the (candidate) data to be analysed (i.e., qualitatively annotated and further analysed statistically) to answer your RQs.
+
+-   Annotate/Code each line of the concordance in MS Excel/Spreadsheet software
+
+    -   [identify the variable(s) to be analysed based on your research question]{style="color:SteelBlue"}
+
+        -   [annotate that as columns in Excel]{style="color:SteelBlue"}; [**one variable, one column**]{style="color:crimson"}
+
+        -   at this stage, [theoretical framework/linguistic skills will be important]{style="color:SteelBlue"} (at least for me)
+
+-   Statistical/quantitative analyses + visualisation in R
+
+    -   [*any* statistical/programming software can be used **as long as** they provide the statistical techniques you are going to use.]{style="color:SteelBlue"}
+
+    -   [very much dependent on your RQs]{style="color:crimson"}
+
+-   Report the results
+
+## My typical workflow in analysing concordance: *Example* {.scrollable}
+
+::: incremental
+-   [Topic]{style="color:MediumVioletRed"}: Indonesian diathesis [cf. @rajeg, *forthcoming*]
+
+-   [Context - Qualitative (theoretical) claim]{style="color:MediumVioletRed"} [@moeliono2017, 257; @sneddon2010, 470]:
+
+    -   In Indonesian passive clause, AGENT can be **optionally** expressed
+
+    -   How would we measure this optionality?
+
+-   [Context - Quantitative (null-hypothesis/theoretical) prediction]{style="color:MediumVioletRed"}:
+
+    -   If we look at a sample of passive clauses (say from a corpus), the presence/absence of AGENT would be roughly equal
+
+-   [Research question]{style="color:MediumVioletRed"}:
+
+    -   To what extent does AGENT is explicitly expressed or suppresed in a sample of passive clauses (with the Indonesian passive *di*- prefix)?
+
+-   [Operationalisation - corpus query]{style="color:MediumVioletRed"}:
+
+    -   What should we extract from the corpus as a concordance? 🤔
+
+        -   passive sentences containing verb marked with *di*-
+
+    -   **No syntactic parsing** in the Indonesian corpus; what to do? 🤷
+
+        -   regular expressions \[RegEx\] “`di[a-z]{5,}`”
+
+    -   50 random concordance lines for each of the total 12 genres
+
+        -   Total raw data to analyse: 600 lines (50 lines \* 12 genres)
+
+    -   save the concordance into tab-separated plain text to be opened in MS Excel
+
+-   [Operationalisation - annotating the concordance]{style="color:MediumVioletRed"}:
+
+    -   Given the RQ, what variable/aspect would we annotate from the concordance sample? How?
+
+        -   we need to annotate the presence/absence of AGENT argument such that later on we can **count**/**quantify** how much is the AGENT present/absent.
+
+    -   Let's see the [concordance data](https://github.com/gederajeg/diatesis-bahasa-indonesia/blob/0.0.1/data/potential_di_passive_sample.tsv)
+
+-   [Results]{style="color:MediumVioletRed"}
+
+    -   Theoretical claim: AGENT is optionally expressed in Indonesian passive with *di*-
+
+        -   How would we measure this optionality?
+
+    -   RQ: To what extent does AGENT is explicitly expressed or suppresed in a sample of passive clauses (with the Indonesian passive *di*- prefix)?
+
+    -   Corpus finding:
+
+```{r}
+#| echo: false
+#| out-width: 7in
+#| out-height: 4in
+knitr::include_graphics(path = "img/05-fig-long-short-passive-1.png")
+```
+:::
+
+## Roadmap
+
+::: nonincremental
+~~1. What is a concordance?~~
+
+~~2. What can we learn from looking at concordance lines?~~
+
+~~3.  Common aspects to look at from concordance~~
+
+~~4.  My typical workflow in analysing concordance~~
+
+5.  Practice
+:::
+
+## Practice {.scrollable}
+
+- Extract concordance of a word or phrase from SkE
+
+- Retrieve random sample from SkE
+
+- Try to sort the concordance into more meaningful display to detect pattern
+
+- Export to .csv/.xlsx
+
+- Open in MS Excel
+
+- Annotate co-occurrence of the node in terms of its:
+
+    - lexical co-occurrence (collocation)
+    
+        - e.g., the subject/object of a verb; the modifier of a head noun; any recurring prepositional combination (?); others (?)
+    
+    - grammatical preference of the node word
+    
+        - e.g., syntactic patterning
+        
+    - semantic preference
+    
+    - semantic prosody
+
+- share and discuss your finding
 
 ## References
