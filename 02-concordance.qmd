@@ -203,11 +203,13 @@ See Sinclair [-@sinclair2004, Ch. 2] for further details for “The search for u
 
             -   [visualising the results](https://github.com/complexico/anger-mad-coca/blob/main/figs/08-fig3-8-Experiencer-collocates.png) based on the collocation strength of these collocates with the adjectives in COCA corpus
 
-- *semantic prosody*
+-   *semantic prosody*
 
-    - pragmatic aura of the context surrounding the node word
+    -   pragmatic aura of the context surrounding the node word
 
-    - typically whether the context is positive or negative
+    -   typically whether the context is positive or negative
+
+    -   “connotation” in the traditional semantics [@mcenery2012, 136]
 :::
 
 ## Roadmap
@@ -217,7 +219,7 @@ See Sinclair [-@sinclair2004, Ch. 2] for further details for “The search for u
 
 ~~2. What can we learn from looking at concordance lines?~~
 
-~~3.  Common aspects to look at from concordance~~
+~~3. Common aspects to look at from concordance~~
 
 4.  My typical workflow in analysing concordance
 
@@ -320,39 +322,39 @@ knitr::include_graphics(path = "img/05-fig-long-short-passive-1.png")
 
 ~~2. What can we learn from looking at concordance lines?~~
 
-~~3.  Common aspects to look at from concordance~~
+~~3. Common aspects to look at from concordance~~
 
-~~4.  My typical workflow in analysing concordance~~
+~~4. My typical workflow in analysing concordance~~
 
 5.  Practice
 :::
 
 ## Practice {.scrollable}
 
-- Extract concordance of a word or phrase from SkE
+-   Extract concordance of a word or phrase from SkE
 
-- Retrieve random sample from SkE
+-   Retrieve random sample from SkE
 
-- Try to sort the concordance into more meaningful display to detect pattern
+-   Try to sort the concordance into more meaningful display to detect pattern
 
-- Export to .csv/.xlsx
+-   Export to .csv/.xlsx
 
-- Open in MS Excel
+-   Open in MS Excel
 
-- Annotate co-occurrence of the node in terms of its:
+-   Annotate co-occurrence of the node in terms of its:
 
-    - lexical co-occurrence (collocation)
-    
-        - e.g., the subject/object of a verb; the modifier of a head noun; any recurring prepositional combination (?); others (?)
-    
-    - grammatical preference of the node word
-    
-        - e.g., syntactic patterning
-        
-    - semantic preference
-    
-    - semantic prosody
+    -   lexical co-occurrence (collocation)
 
-- share and discuss your finding
+        -   e.g., the subject/object of a verb; the modifier of a head noun; any recurring prepositional combination (?); others (?)
+
+    -   grammatical preference of the node word
+
+        -   e.g., syntactic patterning
+
+    -   semantic preference
+
+    -   semantic prosody
+
+-   share and discuss your finding
 
 ## References
