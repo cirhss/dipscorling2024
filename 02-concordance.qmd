@@ -1,0 +1,181 @@
+---
+title: "Concordance"
+author: 
+  - name:
+      given: "Gede Primahadi Wijaya"
+      family: "Rajeg"
+    url: https://www.ling-phil.ox.ac.uk/people/gede-rajeg
+    orcid: 0000-0002-2047-8621
+    affiliation:
+      - '<a href="https://www.cirhss.org/" target="_blank" style="color:DodgerBlue;">CIRHSS</a> & <a href="https://github.com/complexico" target="_blank" style="color:DodgerBlue;">CompLexico</a>, Udayana University; University of Oxford'
+format: 
+  revealjs:
+    slide-number: true
+    preview-links: auto
+    css: styles.css
+date: 2024-07-22
+date-modified: now
+editor: visual
+bibliography: references.bib
+csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/unified-style-sheet-for-linguistics.csl"
+---
+
+## Roadmap
+
+::: incremental
+1.  What is a concordance?
+
+2.  What can we learn from looking at concordance lines?
+
+3. My typical workflow in analysing concordance
+
+4.  Demo & Practice
+:::
+
+## What is a concordance?
+
+::: incremental
+-   “a collection of the occurrences of a word-form, each in its own textual environment. In its simplest form, it is an index. Each word-form is indexed, and a reference is given to the place of each occurrence in a text” [@sinclair1991, 32].
+
+-   “gives contextual information about a word” [@barth2021, 82].
+:::
+
+## What is a concordance? {.scrollable}
+
+::: columns
+::: {.column width="50%"}
+```{r shakespeare-conc}
+#| echo: false
+#| out-width: 5in
+#| out-height: 6in
+#| fig-cap: "A snippet of a concordance of [*charm* in Shakespeare's works](https://www.opensourceshakespeare.org/search/search-results.php?link=con&works[]=*&keyword1=charm&sortby=WorkName&pleasewait=1&msg=sr)."
+#| fig-align: left
+knitr::include_graphics("img/05-shakespeare-conc.png")
+```
+:::
+
+::: {.column width="50%"}
+“a collection of the occurrences of a word-form, each in its own textual environment. In its simplest form, it is an index. *Each [**word-form**]{style="background-color:pink;"} is indexed, and a [**reference**]{style="color:#0527C2;"} is given [**to the place of each occurrence**]{style="color:#0527C2;"} in a text*” [@sinclair1991, 32, emphases mine].
+:::
+:::
+
+## What is a concordance? {.scrollable}
+
+MS Word `find` is a kind of concordance!
+
+```{r msword-conc}
+#| echo: false
+#| label: msword-conc
+#| fig-align: left
+#| out-width: 7in
+#| out-height: 4in
+#| fig-asp: .68
+#| fig-width: 7
+#| fig-dpi: 300
+#| fig-scap: "A concordance in MS Word"
+
+knitr::include_graphics("img/05-word-conc.png")
+```
+
+## What is a concordance? Key Word in Context (KWIC)
+
+KWIC: a modern-day format of a concordance.
+
+```{r ske-charm}
+#| echo: false
+#| out-width: 7in
+#| out-height: 4in
+#| fig-align: left
+#| fig-dpi: 300
+#| fig-width: 5
+#| fig-height: 3
+#| fig-subcap: "A snippet of SE's [concordance of the lemma *CHARM*](https://ske.li/15y) in _English Web 2021_"
+
+knitr::include_graphics("img/05-ske-conc-charm-lemma.png")
+```
+
+## What is a concordance?
+
+Take away:
+
+-   essentially a means to display (raw, unanalysed) data more efficiently
+
+-   does not perform the analysis to answer the research question
+
+    -   *we*, the researcher, need to analyse them in such a way that these concordance data could provide answer to our research question(s).
+
+    -   It is insufficient just to know the how-to of *corpus* linguistics, but also the *linguistics* side.
+
+## Roadmap
+
+::: nonincremental
+~~1. What is a concordance?~~
+
+2.  What can we learn from looking at concordance lines?
+
+3. My typical workflow in analysing concordance
+
+4.  Demo & Practice
+:::
+
+## What can we learn from looking at concordance lines? {.scrollable}
+
+Electronic concordance can be sorted (alphabetically) in various ways [@tribble2010, 175]:
+
+-   by the node/target word/lemma/phrase
+
+-   by the left context of the node
+
+-   by the right context of the node
+
+These sorting help reveals different kinds of usages of the node [cf. @hunston2002, 42-52].
+
+## 
+
+![](img/05-ske-conc-charm-left-context.png){.absolute top="60" left="0" width="90%"}
+
+::: {.absolute left="30" top="20" style="font-size:.8em;"}
+Left-context sorting for the [concordance of *charm*](https://ske.li/15z). Any regularity/pattern?
+:::
+
+::: {.absolute left="30" bottom="10" style="font-size:.5em;"}
+Concordance link: [https://ske.li/15z](https://ske.li/15z)
+:::
+
+## What can we learn from looking at concordance lines? {.scrollable}
+
+See Hunston[-@hunston2002, 42-52] for details of the following points.
+
+- “Observing the ‘central’ and ‘typical’”
+
+    - <span style="color:LightSeaGreen">in frequency terms</span>
+
+- “Observing meaning distinctions”
+
+    - <span style="color:LightSeaGreen">different usage patterns of near-synonyms</span>
+
+- “Observing meaning and patterns”
+
+    - <span style="color:LightSeaGreen">distinct senses/meanings of a word and their patternings (lexical, morpho-syntactical, morphological, etc.)</span>
+    
+    - “<span style="color:SteelBlue">Distinguishing between the meanings is a matter of distinguishing between patterns of usage.” [@hunston2002, 47]</span>
+
+- “Observing detail”
+
+    - <span style="color:LightSeaGreen">mass of data, more specific observation of individual words</span>
+    
+    - e.g., <span style="color:SteelBlue">different semantic type of verbs following the phrase *advice~noun~ as to* [@hunston2002, 52]</span>  
+
+## Roadmap
+
+::: nonincremental
+~~1. What is a concordance?~~
+
+~~2.  What can we learn from looking at concordance lines?~~
+
+3. My typical workflow in analysing concordance
+
+4.  Demo & Practice
+:::
+
+## References
