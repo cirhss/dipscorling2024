@@ -7,7 +7,7 @@ author:
     url: https://www.ling-phil.ox.ac.uk/people/gede-rajeg
     orcid: 0000-0002-2047-8621
     affiliation:
-      - '<a href="https://www.cirhss.org/" target="_blank" style="color:DodgerBlue;">CIRHSS</a> & <a href="https://github.com/complexico" target="_blank" style="color:DodgerBlue;">CompLexico</a>, Udayana University; University of Oxford'
+      - '<a href="https://www.ling-phil.ox.ac.uk/people/gede-rajeg" target="_blank" style="color:DodgerBlue;">University of Oxford</a> / <a href="https://www.cirhss.org/" target="_blank" style="color:DodgerBlue;">CIRHSS</a> & <a href="https://github.com/complexico" target="_blank" style="color:DodgerBlue;">CompLexico</a>, Udayana University'
 format: 
   revealjs:
     slide-number: true

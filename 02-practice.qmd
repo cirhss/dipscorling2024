@@ -1,0 +1,93 @@
+---
+title: "Concordance: Practice"
+author: 
+  - name:
+      given: "Gede Primahadi Wijaya"
+      family: "Rajeg"
+    url: https://www.ling-phil.ox.ac.uk/people/gede-rajeg
+    orcid: 0000-0002-2047-8621
+    affiliation:
+      - 'University of Oxford / <a href="https://www.cirhss.org/" target="_blank" style="color:DodgerBlue;">CIRHSS</a> & <a href="https://github.com/complexico" target="_blank" style="color:DodgerBlue;">CompLexico</a>, Udayana University'
+date: 2024-07-20
+date-modified: now
+format: 
+  html:
+    toc: true
+    toc-location: left
+    number-sections: true
+    number-depth: 3
+editor: visual
+bibliography: references.bib
+csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/unified-style-sheet-for-linguistics.csl"
+---
+
+The source code files for all materials are available here: <https://github.com/complexico/dipscorling2024>
+
+## Operationalising conceptual aim into query in the Concordance feature of SkE
+
+- Corpus: `English Web 2021 (enTenTen21)`
+
+- Your aim (read through this till the end before conducting the query): 
+
+    - You only start using the `BASIC`
+
+    - You are interested in comparing the uses of the form *touch* in two text types under the **Topic** (*sport* and *beauty & fashion*) based on 20 random concordance lines from each topic.
+    
+    - Before you download each of the generated concordance, you want to sort the concordance such that more revealing pattern emerges for further inspection.
+    
+    - Moreover, in the concordance output window, you want to have information about the tag of the words in the concordance (recall Niall's session yesterday).
+    
+    - You also want to save/download each concordance output from the two **Topic** into two different .xlsx files.
+
+- Your turn:
+
+    - I will let you share screen to show how to go about operationalising that aim.
+    
+    - NB: my concordance of *touch* in *beauty & fashion* topic (it will be different from yours because it is randomised): [https://ske.li/151](https://ske.li/151)
+    
+    - NB: my concordance of *touch* in *sports* topic (it will be different from yours because it is randomised): [https://ske.li/152](https://ske.li/152)
+
+## Heuristic inspection of the usage pattern found in the concordance
+
+- Corpus/Data: your *touch* data
+
+- Task:
+
+    - with only 20 lines, could you spot some recurring patterns with *touch*? (e.g., whether *touch* appears in certain syntactic phrases with a more-or-less other fixed word?)
+    
+## Word class/Part-of-speech of *touch*
+
+- Corpus/Data: your *touch* data
+
+- Conceptual aspect: 
+
+    - intuite about what is the predominant word class/part-of-speech of *touch* in the sample? For me, I'd bet that *touch* is predominantly verbal.
+    
+- Task:
+
+    - if you have included information about the tag for each word via the `View options` feature, quantify the frequency of tag types for *touch* in each concordance file (i.e., for *sports* and for *beauty&fashion*).
+    
+        - what is the proportion of noun-oriented tag (that starting with `N`) vs. verb-oriented tag vs. others (if any).
+        
+        - does your intuition correspond with the sample data?
+
+
+## literal vs. metaphorical meaning
+
+- Corpus/Data: your *touch* data
+
+- Background:
+
+    - As an oversimplification for this exercise, the metaphorical meaning for *touch* (a physical action lexeme) refers to the meaning where it does not involve any physical touching. That is a more abstract sense of *touch* (like in the domain of emotion [e.g., *I am touched by your kindness*], or others [e.g., expertise of someone at doing something]).
+    
+    - This is where you will practice further reading concordance data line-by-line and annotating each line for a given variable of interest (in this case, say, MEANING variable with two or more levels/categories: *metaphoric*, *literal*, or *unclear*).
+
+- Task:
+
+    - In your Excel sheet concordance data, make a new column (immediately to the right of the column for the right context) with the variable name
+    
+    - Then, inspect line by line _qualitatively_ to determine whether the use of *touch* in each line is metaphorical, literal, or unclear
+    
+    - Quantify the proportion of these meanings per concordance file. 
+    
+        - Does certain meaning of *touch* appear relatively more frequently in one text type over the other?
