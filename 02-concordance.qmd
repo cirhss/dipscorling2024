@@ -357,4 +357,16 @@ knitr::include_graphics(path = "img/05-fig-long-short-passive-1.png")
 
 -   share and discuss your finding
 
+# End of `Concordance`
+
+- source files for all materials:
+
+    - <https://github.com/complexico/dipscorling2024>
+
+- pdf version as a handout [here](https://github.com/complexico/dipscorling2024/blob/main/02-concordance.pdf)
+
+- How to cite these materials:
+
+    > Rajeg, Gede Primahadi Wijaya. 2024. Materials for the *Diponegoro Summer Course in Corpus Linguistics* (*DipSCORLING 2024*) (22 - 27 July 2024). R Quarto. Zenodo. [https://doi.org/10.5281/zenodo.12793922](https://doi.org/10.5281/zenodo.12793922). (22 July, 2024).
+
 ## References

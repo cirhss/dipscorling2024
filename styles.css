@@ -1,3 +1,7 @@
 .extrapad li:not(:last-child) {
     margin-bottom:60px  !important;
 }
+
+.suppressedtextcolour {
+  color: AntiqueWhite;
+}
